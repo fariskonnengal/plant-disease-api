@@ -7,7 +7,7 @@ import io
 
 app = FastAPI()
 
-model = tf.keras.models.load_model(r'C:\Users\ADMIN\PlantDisease\plant_disease_model.keras')
+model = tf.keras.models.load_model('plant_disease_model.keras')
 
 class_names = [
     'Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust',
